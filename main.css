@@ -57,7 +57,7 @@ img, embed, object, video {
 }
 
 .header__inner {
-  width: 800px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -85,7 +85,7 @@ img, embed, object, video {
  */
 
 .nav {
-  width: 800px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -105,6 +105,7 @@ img, embed, object, video {
   padding: 24px;
   text-transform: uppercase;
   min-width: 48px;
+  min-height: 48px;
 }
 
 .nav a {
@@ -126,7 +127,7 @@ img, embed, object, video {
 
 main {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
-  width: 800px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -309,7 +310,7 @@ main {
 }
 
 .weather__next__image {
-  width: 100%;
+  max-width: 100%;
 }
 
 
@@ -365,6 +366,8 @@ footer {
 footer li {
   display: inline-block;
   margin: 0 1em;
+  min-width: 48px;
+  min-height: 48px;
 }
 
 footer a {
